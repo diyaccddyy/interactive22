@@ -1,0 +1,65 @@
+body {
+  background: black;  
+  color: white;
+  font-family: monaco;
+
+}
+
+
+img {
+  position: absolute;
+  top:6vh;
+  left:50vw;
+    width: 18%;
+    height:auto;
+  transform-origin: 0 99.38%;
+  display: none;
+}
+img.show {
+  display: block;
+}
+
+.image2 {
+  transform: rotate(45deg);
+
+}
+.image3 {
+  transform: rotate(90deg);
+}
+.image4 {
+  transform: rotate(135deg);
+}
+.image5 {
+  transform: rotate(180deg);
+}
+.image6 {
+  transform: rotate(225deg);
+}
+.image7 {
+  transform: rotate(270deg);
+  left:50.05vw;
+}
+.image8 {
+  transform: rotate(315deg);
+
+
+}
+
+.image1{
+  position:absolute;
+
+
+}
+
+#time{
+
+  position:absolute;
+top:300px;
+display: none;
+}
+
+
+.aFiveMinute {
+  background: white;
+}
+
