@@ -1,0 +1,35 @@
+body {
+  background: #2B3990;  
+
+}
+
+
+
+
+.matisse1{
+   margin-top: 1px;
+    margin-left: 390px;
+    
+    width:44%;
+
+  
+}
+
+
+.matisse1:hover{
+	opacity: 0.2;
+
+  }
+
+  #scrollmarker{
+  	position:absolute;
+  	left:100000px;
+  	top:0;
+  	width:10px;
+  	height:10px;
+  }
+
+
+
+
+
