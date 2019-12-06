@@ -1,11 +1,17 @@
 body {
   background: #2B3990;  
 
+
 }
+
+ul {
+  list-style: none;
+}
+
 
 .matisse{
 	position:absolute;
-	margin-top:107px;
+	margin-top:140px;
 	margin-left:220px;
 	width:31%;
 	height:auto;
@@ -14,10 +20,25 @@ body {
 .bodytext{
 font-family: Myriad Pro;
 color:white;
-font-size:14px;
+font-size:13px;
 	position:absolute;
 	left:780px;
-    top:180px;
+    top:235px;
+    width:360px;
+    text-align:justify;
+    	z-index: 10001;
+    	line-height: 1.5;
+      
+}
+
+.subtitle{
+font-family: Myriad Pro;
+font-style: italic;
+color:black;
+font-size:12px;
+	position:absolute;
+	left:780px;
+    top:190px;
     width:440px;
     text-align:justify;
     	z-index: 10001;
@@ -31,21 +52,13 @@ color:#EF4136;
 font-size:17px;
 	position:absolute;
 	left:780px;
-    top:120px;
+    top:135px;
  
 
 
 }
 
-.button{
-	font-family:Myriad Pro;
-color:white;
-font-size:15px;
-	position:absolute;
-	left:1350px;
-    top:12px;
-   
-}
+
 
 .dot{
 position:absolute;
@@ -59,5 +72,85 @@ left:30px;
 
 
 }
+
+
+.matissehome{
+position:absolute;
+width:6%;
+height:auto;
+left:1330px;
+    top:16.5px;
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+  body {
+    margin-top:0vh;
+  }
+
+.matisse{
+	position:absolute;
+	margin-top:150px;
+	margin-left:140px;
+	width:40%;
+	height:auto;
+}
+
+.bodytext{
+	display:none;
+}
+
+.subtitle{
+	font-family: Myriad Pro;
+font-style: italic;
+color:black;
+font-size:10px;
+	position:absolute;
+	left:136px;
+    top:465px;
+    width:450px;
+    text-align:justify;
+    	z-index: 10001;
+
+
+}
+
+
+.name{
+	font-family:Eds Market Regular;
+color:#EF4136;
+font-size:17px;
+	position:absolute;
+	left:140px;
+    top:410px;
+}
+
+
+
+
+.matissehome{
+position:absolute;
+width:8%;
+height:auto;
+left:50px;
+    top:30px;
+
+
+
+}
+
+
+
+
+}
+
 
 

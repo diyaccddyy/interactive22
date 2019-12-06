@@ -1,0 +1,179 @@
+body {
+  background: #9CABD7;  
+
+}
+
+ul {
+  list-style: none;
+}
+
+.artwork2{
+position:absolute;
+margin-top:110px;
+	margin-left:180px;
+	width:33%;
+	height:auto;
+	z-index:10001;
+
+
+
+}
+
+
+
+
+.bodytext{
+font-family: Myriad Pro;
+color:white;
+font-size:14px;
+	position:absolute;
+	left:830px;
+    top:260px;
+    width:300px;
+    text-align:justify;
+    	z-index: 10001;
+
+
+}
+
+.name{
+font-family:Eds Market Regular;
+color:black;
+font-size:15px;
+	position:absolute;
+	left:830px;
+    top:160px;
+    line-height: 1.4;
+ 
+
+
+}
+
+.button{
+	font-family:Myriad Pro;
+color:white;
+font-size:15px;
+	position:absolute;
+	left:1350px;
+    top:12px;
+   
+}
+
+.caption{
+position:absolute;
+font-family:Myriad Pro;
+font-size:10px;
+left:830px;
+    top:500px;
+    color:white;
+}
+
+
+
+.line{
+position:absolute;
+   top:220px;
+left:-200px;
+	width:90%;
+	height:80%;
+	z-index: 10000;
+
+
+
+
+}
+
+
+
+.art2home{
+	position:absolute;
+left:1330px;
+    top:12px;
+    width:7%;
+    height:auto;
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+  body {
+    margin-top:0vh;
+  }
+
+
+.artwork2{
+position:absolute;
+margin-top:110px;
+	margin-left:150px;
+	width:40%;
+	height:auto;
+	z-index:10001;
+
+
+
+}
+
+.line{
+position:absolute;
+   top:140px;
+left:40px;
+	width:80%;
+	height:50%;
+	z-index: 10000;
+
+
+}
+
+
+.art2home{
+	position:absolute;
+left:50px;
+    top:12px;
+    width:7%;
+    height:auto;
+
+
+}
+
+
+.bodytext{
+font-family: Myriad Pro;
+color:white;
+font-size:10px;
+	position:absolute;
+	left:140px;
+    top:460px;
+    width:250px;
+    text-align:justify;
+    	z-index: 10001;
+
+
+}
+
+
+
+.name{
+font-family:Eds Market Regular;
+color:black;
+font-size:10px;
+	position:absolute;
+	left:150px;
+    top:390px;
+    line-height: 1.4;
+ 
+
+
+}
+
+
+.caption{
+display:none;
+}
+
+
+}
+

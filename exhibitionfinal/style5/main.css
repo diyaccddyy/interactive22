@@ -1,0 +1,185 @@
+body {
+  background: #9CABD7;  
+
+}
+
+ul {
+  list-style: none;
+}
+
+.leafpainting{
+position:absolute;
+top:130px;
+left:195px;
+	width:35%;
+	height:auto;
+	z-index:10001;
+
+
+
+}
+
+
+
+
+.bodytext{
+font-family: Myriad Pro;
+color:white;
+font-size:14px;
+	position:absolute;
+	left:830px;
+    top:210px;
+    width:300px;
+    text-align:justify;
+    	z-index: 10001;
+
+
+}
+
+.name{
+font-family:Eds Market Regular;
+color:black;
+font-size:15px;
+	position:absolute;
+	left:830px;
+    top:110px;
+    line-height: 1.4;
+ 
+
+
+}
+
+.button{
+	font-family:Myriad Pro;
+color:white;
+font-size:15px;
+	position:absolute;
+	left:1350px;
+    top:12px;
+   
+}
+
+.caption{
+position:absolute;
+font-family:Myriad Pro;
+font-size:10px;
+left:830px;
+    top:559px;
+    color:black;
+}
+
+
+
+
+
+
+
+
+.artwork3gif{
+position:absolute;
+   top:-10px;
+left:-75px;
+	width:88%;
+	height:100%;
+	z-index: 10000;
+
+
+
+}
+
+
+
+.art3home{
+	position:absolute;
+left:1330px;
+    top:12px;
+    width:7%;
+    height:auto;
+
+
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+  body {
+    margin-top:0vh;
+  }
+
+.leafpainting{
+position:absolute;
+top:130px;
+left:155px;
+    width:45%;
+    height:auto;
+    z-index:10001;
+
+}
+
+
+.artwork3gif{
+position:absolute;
+   top:50px;
+left:45px;
+    width:88%;
+    height:50%;
+    z-index: 10000;
+
+
+
+}
+
+
+
+.art3home{
+    position:absolute;
+left:30px;
+    top:20px;
+    width:7%;
+    height:auto;
+
+
+}
+
+
+.bodytext{
+font-family: Myriad Pro;
+color:white;
+font-size:10px;
+    position:absolute;
+    left:150px;
+    top:430px;
+    width:270px;
+    text-align:justify;
+        z-index: 10001;
+
+
+}
+
+.name{
+font-family:Eds Market Regular;
+color:black;
+font-size:11px;
+    position:absolute;
+    left:155px;
+    top:360px;
+    line-height: 1.4;
+ 
+
+
+}
+
+.caption{
+display:none;
+}
+
+
+
+
+}
+
+
+
+
+
